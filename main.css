@@ -1,0 +1,133 @@
+body{
+    background-color: #FFF7EF;
+
+}
+.hero-container img{
+  padding-top:200px;
+  margin-left:20%;
+  margin-right:20%;
+  width:100%;
+  display: block;
+  margin: 0 auto;
+}
+/* nav bar hover effects */
+
+/* Boxes */
+.box {
+  background: #FFF;
+  border: solid 4px #CCC;
+  cursor: pointer;
+  display: inline-block;
+  height: 100px;
+  margin: 25px;
+  position: relative;
+  width: 100px;
+}
+
+
+/* Box Colors */
+.red::before, 
+.red::after { 
+  border: dashed 4px #F44336; 
+}
+
+.yellow::before,
+.yellow::after {
+  border: solid 4px #FFC107;
+}
+
+.green::before,
+.green::after {
+  border: dashed 4px #4CAF50;
+}
+
+.blue::before,
+.blue::after {
+  border: dashed 4px #2196F3;
+}
+
+
+/* Box Borders */
+.box::before,
+.box::after {
+  background: transparant;
+  content: '';
+  height: 0;
+  opacity: 0;
+  position: absolute;
+  width: 0;
+}
+.box::before {
+  border-bottom: 0;
+  border-left: 0;
+  left: -4px;
+  top: -4px;
+}
+.box::after {
+  border-right: 0;
+  border-top: 0;
+  bottom: -4px;
+  right: -4px;
+}
+
+.box:hover::before,
+.box:hover::after {
+  height: 104px;
+  opacity: 1;
+  width: 104px;
+}
+
+
+/* Box Animations */
+.solo::before { transition: opacity 0s .4s, width .1s .3s, height .1s .2s; }
+.solo:hover::before { transition: opacity 0s 0s, width .1s 0s, height .1s .1s; }
+.solo::after { transition: opacity 0s .2s, width .1s .1s, height .1s 0s; }
+.solo:hover::after { transition: opacity 0s .2s, width .1s .2s, height .1s .3s; }
+
+.double::before { transition: opacity 0s .4s, width .2s .2s, height .2s 0s; }
+.double:hover::before { transition: opacity 0s 0s, width .2s 0s, height .2s .2s; }
+.double::after { transition: opacity 0s .4s, width .2s .2s, height .2s 0s; }
+.double:hover::after { transition: opacity 0s 0s, width .2s 0s, height .2s .2s; }
+
+nav{
+    padding-left:4em;
+    padding-right: 4em;
+    /* TODO: figure out no longer staying fixed */
+    position:fixed;
+    width: 100%;
+    top:0;
+    left: 20%;
+    z-index:10;
+  }
+
+  nav ul {
+    margin:0;
+    padding:0;
+    display:flex;
+  }
+  nav li{
+    padding: 1em 0;
+    list-style-type: none;
+    padding: 25px;
+    font-size: 1.7em;
+  }
+  
+  nav li a {
+    color:rgb(248, 151, 230);
+    font-weight: 600;
+    opacity: 0.6;
+    text-decoration: none;
+    transition: .3s;
+  }
+  
+  nav li a:hover {
+    color:rgb(233, 70, 233);
+    opacity: 1;
+    text-decoration: none;
+  }
+
+ .logomark svg{
+  size: 50%;
+
+
+ }
