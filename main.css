@@ -51,11 +51,14 @@ nav{
   }
 
  .logomark svg{
-  size: 50%;
+  size: 40%;
 
 
  }
+/*desktop grid*/
+ @media only screen and (min-width: 1200px){
 
+ /*desktop box animation stuff starts here*/
 /* Boxes */
 .box {
   background: #FFF;
@@ -132,3 +135,4 @@ nav{
 .double:hover::before { transition: opacity 0s 0s, width .2s 0s, height .2s .2s; }
 .double::after { transition: opacity 0s .4s, width .2s .2s, height .2s 0s; }
 .double:hover::after { transition: opacity 0s 0s, width .2s 0s, height .2s .2s; }
+}
