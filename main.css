@@ -12,6 +12,50 @@ body{
 }
 /* nav bar hover effects */
 
+
+nav{
+    padding-left:4em;
+    padding-right: 4em;
+    /* TODO: figure out no longer staying fixed */
+    /* position:fixed; */
+    width: 100%;
+    /* top:0; */
+    left: 20%;
+    z-index:10;
+  }
+
+  nav ul {
+    margin:0;
+    padding:0;
+    display:flex;
+  }
+  nav li{
+    padding: 1em 0;
+    list-style-type: none;
+    padding: 25px;
+    font-size: 1.7em;
+  }
+  
+  nav li a {
+    color:rgb(248, 151, 230);
+    font-weight: 600;
+    opacity: 0.6;
+    text-decoration: none;
+    transition: .3s;
+  }
+  
+  nav li a:hover {
+    color:rgb(233, 70, 233);
+    opacity: 1;
+    text-decoration: none;
+  }
+
+ .logomark svg{
+  size: 50%;
+
+
+ }
+
 /* Boxes */
 .box {
   background: #FFF;
@@ -88,46 +132,3 @@ body{
 .double:hover::before { transition: opacity 0s 0s, width .2s 0s, height .2s .2s; }
 .double::after { transition: opacity 0s .4s, width .2s .2s, height .2s 0s; }
 .double:hover::after { transition: opacity 0s 0s, width .2s 0s, height .2s .2s; }
-
-nav{
-    padding-left:4em;
-    padding-right: 4em;
-    /* TODO: figure out no longer staying fixed */
-    position:fixed;
-    width: 100%;
-    top:0;
-    left: 20%;
-    z-index:10;
-  }
-
-  nav ul {
-    margin:0;
-    padding:0;
-    display:flex;
-  }
-  nav li{
-    padding: 1em 0;
-    list-style-type: none;
-    padding: 25px;
-    font-size: 1.7em;
-  }
-  
-  nav li a {
-    color:rgb(248, 151, 230);
-    font-weight: 600;
-    opacity: 0.6;
-    text-decoration: none;
-    transition: .3s;
-  }
-  
-  nav li a:hover {
-    color:rgb(233, 70, 233);
-    opacity: 1;
-    text-decoration: none;
-  }
-
- .logomark svg{
-  size: 50%;
-
-
- }
