@@ -5,10 +5,11 @@
     grid-column-gap: 0px;
     grid-row-gap: 0px; 
     }
-    .img{
+    .portrait{
         align-items: center;
         display: flex;
-        margin: auto;
+        margin: 0 auto;
     }
     
+
     

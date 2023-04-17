@@ -24,6 +24,7 @@ nav{
     z-index:10;
   }
 
+
   nav ul {
     margin:0;
     padding:0;
@@ -49,12 +50,21 @@ nav{
     opacity: 1;
     text-decoration: none;
   }
+/*styling for logo*/
 
  .logomark svg{
   size: 40%;
-
+ }
+ /* type styling */
+ p{
 
  }
+ .hero-paragraph{
+
+ }
+.paragraph-starter{
+  
+}
 /*desktop grid*/
  @media only screen and (min-width: 1200px){
 
