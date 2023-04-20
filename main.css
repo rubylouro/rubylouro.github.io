@@ -78,6 +78,8 @@ nav{
 .paragraph-starter{
   font-size: 20pt;
   color:rgb(130, 43, 111) ;
+
+
 }
 /*desktop grid*/
  @media only screen and (min-width: 1200px){
