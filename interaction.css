@@ -28,8 +28,8 @@
   
   .hovereffect:hover img {
     filter:blur(3px);
-    -webkit-filter: blur(3px);
-    -webkit-transform: scale(1.2);
+    -webkit-filter: blur(12px);
+    -webkit-transform: scale(1);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
   }
@@ -40,14 +40,14 @@
     position: relative;
     font-size: 1em;
     padding: 10px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     /* color:#FFA100; */
   }
   
   .hovereffect p {
     display: inline-block;
     text-decoration: none;
-    padding: 7px 14px;
+    padding: 7px 7px;
     margin: 0;
     background-color: transparent;
   }
@@ -59,18 +59,18 @@
     -ms-transform: scale(0.7);
     transform: scale(0.7);
     -webkit-transition: all 0.4s ease-in;
-    transition: all 0.4s ease-in;
+    transition: all 0.3s ease-in;
     opacity: 0;
     filter: alpha(opacity=0);
-    color: #fff;
+    color: rgb(255, 27, 183);
     text-transform: uppercase;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+    font: weight 3px;00;
     margin-top:100px;
   }
   
   .hovereffect:hover p, .hovereffect:hover h2 {
-    opacity: 1;
+    opacity: 10;
     filter: alpha(opacity=100);
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
