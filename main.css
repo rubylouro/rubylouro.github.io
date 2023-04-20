@@ -38,7 +38,7 @@ nav{
   }
   
   nav li a {
-    color:rgb(211, 128, 27);
+    color:rgb(65, 77, 9);
     font-weight: 600;
     opacity: 0.6;
     text-decoration: none;
@@ -46,7 +46,7 @@ nav{
   }
   
   nav li a:hover {
-    color:rgb(233, 70, 233);
+    color:rgb(193, 116, 137);
     opacity: 1;
     text-decoration: none;
   }
@@ -62,8 +62,8 @@ nav{
  .hero-paragraph{
   color:
 
-
  }
+
 .paragraph-starter{
 
 }
