@@ -1,14 +1,25 @@
-.parent { 
+.aucourantproject { 
     display: grid; 
-    grid-template-columns: repeat(2, 1fr); 
-    grid-template-rows: repeat(2, 1fr); 
+    grid-template-columns: 1fr; 
+    grid-template-rows: auto; 
     grid-column-gap: 0px;
     grid-row-gap: 0px; 
     }
-    .div1 { 
-        grid-area: 1 / 1 / 2 / 2; 
-        size-adjust: 20%;
+    .aucourant1 { 
+        margin: 0 auto;
+    }
+    
+    .aucourant2 {
+        margin: 0 auto;
+
+    }
+
+        /* grid-area: 1 / 1 / 2 / 2;  */
+        /* size-adjust: 20%; */
+        /* width: 20px; */
+       /* height: 300px; 
+       width: 300px; */
     } 
-    .div2 { grid-area: 1 / 2 / 2 / 3; } 
-    .div3 { grid-area: 2 / 1 / 3 / 2; } 
-    .div4 { grid-area: 2 / 2 / 3 / 3; } 
+    /* .div2 { grid-area: 1 / 2 / 2 / 3; }  */
+    /* .div3 { grid-area: 2 / 1 / 3 / 2; }  */
+    /* .div4 { grid-area: 2 / 2 / 3 / 3; }  */
