@@ -35,6 +35,8 @@ nav{
     list-style-type: none;
     padding: 25px;
     font-size: 1.7em;
+    font-family:'Poppins', sans-serif;
+    /* font-weight: @200; */
   }
   
   nav li a {
@@ -55,17 +57,24 @@ nav{
  .logomark svg{
   size: 40%;
  }
+ 
  /* type styling */
  p{
-
+    color:rgb(65, 77, 9);
+    font-family:'Poppins',sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+    text-indent: 25pt;
  }
  .hero-paragraph{
-  color:
+  color:rgb(65, 77, 9);
 
  }
 
 .paragraph-starter{
-
+  font-size: 20pt;
+  color:rgb(130, 43, 111) ;
 }
 /*desktop grid*/
  @media only screen and (min-width: 1200px){
