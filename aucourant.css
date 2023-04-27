@@ -1,5 +1,6 @@
 .aucourantproject { 
     display: grid; 
+    width: 100vw;
     grid-template-columns: 1fr; 
     grid-template-rows: auto; 
     grid-column-gap: 0px;
