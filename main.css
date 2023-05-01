@@ -147,7 +147,7 @@ footer {
     margin-left:30%;
     margin-right: 30%;
     margin-bottom: 10%;
-    text-indent: 25pt;
+    text-indent: 25pt each-line;
     font-size: 25px;
  }
  
