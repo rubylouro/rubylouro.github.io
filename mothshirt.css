@@ -1,0 +1,19 @@
+.shirtproject { 
+    display: grid; 
+    width: 100vw;
+    grid-template-columns: 1fr; 
+    grid-template-rows: auto; 
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+    }
+    .moth1 { 
+        margin: 0 auto;
+    }
+    
+    .moth2 {
+        margin: 0 auto;
+    }
+
+    p{
+        padding-bottom: 2px;
+    }
