@@ -63,7 +63,14 @@ nav ul li{
   nav li a:hover {
     color:rgb(193, 116, 137);
     opacity: 1;
-    text-decoration: none;
+    /* text-decoration: underline; */
+    /* text-decoration-line:underline; */
+    border: dashed;
+    border-width: 3px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 /*styling for logo*/
 
