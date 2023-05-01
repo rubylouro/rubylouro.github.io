@@ -83,11 +83,11 @@ nav ul li{
  p{
     color:rgb(65, 77, 9);
     font-family:'Poppins',sans-serif;
-    margin-left:15%;
-    margin-right: 15%;
-    margin-bottom: 10%;
-    text-indent: 25pt;
-    font-size: 20px;
+    margin-left:10%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    text-indent: 20pt each-line;
+    font-size: 15px;
  }
  .hero-paragraph{
   color:rgb(65, 77, 9);
